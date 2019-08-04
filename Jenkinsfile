@@ -8,7 +8,7 @@ pipeline {
          }
          stage("build") {
              steps {
-                 sh "sudo docker build testapp ."
+                 sh "sudo docker build testapp!!!! ."
              }
          }
          stage("run"){
